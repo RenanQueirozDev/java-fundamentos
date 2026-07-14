@@ -1,3 +1,5 @@
+package Logica.Loops;
+
 import java.util.Scanner;
 
 // Como usuário eu gostaria de ter um menu visual que seja
