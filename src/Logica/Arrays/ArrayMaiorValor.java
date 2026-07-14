@@ -1,3 +1,5 @@
+package Logica.Arrays;
+
 import java.util.Scanner;
 
 // Crie um array de 6 números (digitados pelo usuário),

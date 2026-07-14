@@ -1,3 +1,5 @@
+package Logica.Condicionais;
+
 import java.util.Scanner;
 
 // Programa que calcule e exiba a tabuada de qualquer número (0 a 10)

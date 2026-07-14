@@ -1,3 +1,5 @@
+package Logica.Entrada;
+
 import java.util.Scanner;
 
 public class ScannerNomeIdade {

@@ -1,3 +1,5 @@
+package Logica.Loops;
+
 import java.util.Scanner;
 
 public class Calculadora {

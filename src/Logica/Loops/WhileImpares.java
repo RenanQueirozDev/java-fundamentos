@@ -1,3 +1,5 @@
+package Logica.Loops;
+
 import java.util.Scanner;
 
 // Eu como usuário gostaria de imprimir todos os números

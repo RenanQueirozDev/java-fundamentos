@@ -1,3 +1,5 @@
+package Logica.Arrays;
+
 import java.util.Scanner;
 
 public class ArrayParesImpares {
