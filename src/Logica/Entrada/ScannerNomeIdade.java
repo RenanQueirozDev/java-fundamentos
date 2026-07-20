@@ -7,8 +7,8 @@ public class ScannerNomeIdade {
         Scanner lerDados = new Scanner(System.in);
         System.out.println("Digite seu nome completo: ");
         String nome = lerDados.nextLine();
-        System.out.println("Digite sua idade: ");
+        System.out.println("Digite sua age: ");
         int idade = lerDados.nextInt();
-        System.out.println("seu nome e: " + nome + " e sua idade e: " + idade);
+        System.out.println("seu nome e: " + nome + " e sua age e: " + idade);
     }
 }
