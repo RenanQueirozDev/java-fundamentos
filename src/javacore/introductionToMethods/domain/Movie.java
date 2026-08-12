@@ -16,9 +16,9 @@ public class Movie {
     }
 
     public void printInfo() {
-        System.out.println(title);
-        System.out.println(genre);
-        System.out.println(durationMinutes);
+        System.out.println(this.title);
+        System.out.println(this.genre);
+        System.out.println(this.durationMinutes);
         if (isShort()) {
             System.out.println("This movies is short");
 
@@ -33,6 +33,6 @@ public class Movie {
             } else {
                 System.out.println("This movie isn't well-rated. It has a rating below 7." );
             }
-        System.out.println("Rating is " + rating);
+        System.out.println("Rating is " + this.rating);
         }
     }
