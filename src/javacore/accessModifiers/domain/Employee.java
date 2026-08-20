@@ -28,11 +28,16 @@ public class Employee {
 
     }
 
-    public Employee (String name, int age, String position, boolean speaksEnglish) {
+    public Employee(String name, int age, String position, double salary) {
         this.name = name;
         this.age = age;
         this.position = position;
-        this.speaksEnglish = speaksEnglish;
+        this.salary = salary;
+    }
+    public Employee(String name, String position, double salary) {
+        this.name = name;
+        this.position = position;
+        this.salary = salary;
     }
 
 
@@ -40,7 +45,7 @@ public class Employee {
         if (position.equalsIgnoreCase("Intern") && salary > 2000) {
             return false;
 
-        } else if (position.equalsIgnoreCase("junior") && salary > 5000) {
+        } else if (position.equalsIgnoreCase("junior") && salary > 7000) {
             return false;
 
         } else if (position.equalsIgnoreCase("Mid") && salary > 10000) {
@@ -67,7 +72,6 @@ public class Employee {
         System.out.println("-----------------------------------------------");
         System.out.println("name = " + this.name);
         System.out.println("age = " + this.age);
-        System.out.println("Old position = " + position);
         System.out.println("position = " + getPosition());
         System.out.println("salary = " + this.salary);
         System.out.println("bonus = " + bonus());
@@ -109,7 +113,11 @@ public class Employee {
         public String getPosition () {
             return position;
         }
+
+    public void setSpeaksEnglish(boolean speaksEnglish) {
+        this.speaksEnglish = speaksEnglish;
     }
+}
 
 
 
