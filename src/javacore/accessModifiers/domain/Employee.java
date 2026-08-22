@@ -1,4 +1,5 @@
-package javacore.accessModifiers.domain;
+
+ package javacore.accessModifiers.domain;
 
 
 public class Employee {
@@ -12,7 +13,7 @@ public class Employee {
     public void setPosition(String position) {
         if (position.equalsIgnoreCase("Intern")
                 || position.equalsIgnoreCase("Junior")
-                || position.equalsIgnoreCase("Pleno")
+                || position.equalsIgnoreCase("mid")
                 || position.equalsIgnoreCase("senior")) {
             this.position = position;
         }
@@ -24,6 +25,8 @@ public class Employee {
         } else if (position == null) {
         } else if (validateSalary(salary)) {
             this.salary = salary;
+        } else {
+            System.out.println("Salary exceeds limit for position: " + position);
         }
 
     }
@@ -31,13 +34,13 @@ public class Employee {
     public Employee(String name, int age, String position, double salary) {
         this.name = name;
         this.age = age;
-        this.position = position;
-        this.salary = salary;
+        setPosition(position);
+        setSalary(salary);
     }
     public Employee(String name, String position, double salary) {
         this.name = name;
-        this.position = position;
-        this.salary = salary;
+        setPosition(position);
+       setSalary(salary);
     }
 
 
@@ -64,9 +67,9 @@ public class Employee {
         else bonus = 0;
         return bonus;
     }
-        public double totalSalary() {
-            return salary + bonus();
-        }
+    public double totalSalary() {
+        return salary + bonus();
+    }
 
     public void printInfo() {
         System.out.println("-----------------------------------------------");
@@ -107,12 +110,12 @@ public class Employee {
     }
 
     public double getSalary () {
-            return salary;
-        }
+        return salary;
+    }
 
-        public String getPosition () {
-            return position;
-        }
+    public String getPosition () {
+        return position;
+    }
 
     public void setSpeaksEnglish(boolean speaksEnglish) {
         this.speaksEnglish = speaksEnglish;
