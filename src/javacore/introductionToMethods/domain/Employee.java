@@ -2,12 +2,6 @@ package javacore.introductionToMethods.domain;
 
 import java.util.Scanner;
 
-/*
-Create a class called Employee with the attributes
-name, age, and an array to store three salaries`.
-In addition, implement two methods:
-one to print the employee's data and another to calculate and display the average salary.
- */
 public class Employee {
     Scanner keyboardInput = new Scanner(System.in);
 
@@ -50,8 +44,6 @@ public class Employee {
     }
 
     }
-
-
 
 
 
