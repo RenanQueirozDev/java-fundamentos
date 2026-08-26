@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../estudosFrontEnd/estudosFrontEnd.iml" filepath="$PROJECT_DIR$/../estudosFrontEnd/estudosFrontEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudosFrontend/estudosFrontend.iml" filepath="$PROJECT_DIR$/estudosFrontend/estudosFrontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/estudosJava.iml" filepath="$PROJECT_DIR$/estudosJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudosFrontend/estudosfrontend/estudosfrontend.iml" filepath="$PROJECT_DIR$/estudosFrontend/estudosfrontend/estudosfrontend.iml" />
     </modules>
   </component>
 </project>
