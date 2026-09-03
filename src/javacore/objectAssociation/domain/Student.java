@@ -9,7 +9,7 @@ public class Student {
         this.age = age;
     }
 
-    public void imprime() {
+    public void print() {
         System.out.println(name);
         System.out.println(age);
 

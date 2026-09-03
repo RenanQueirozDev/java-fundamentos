@@ -12,6 +12,6 @@ public class ClassRoomTest {
         students[0] = student01;
         students[1] = student02;
         ClassRoom classRoom = new ClassRoom("English",students);
-        classRoom.imprime();
+        classRoom.print();
     }
 }

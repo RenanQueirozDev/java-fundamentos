@@ -12,10 +12,11 @@ public class ClassRoom {
     public Student[] getStudents() {
         return students;
     }
-    public void imprime() {
+
+    public void print() {
             System.out.println(name);
         for (int i = 0; i < students.length; i++) {
-            students[i].imprime();
+            students[i].print();
         }
 
 
