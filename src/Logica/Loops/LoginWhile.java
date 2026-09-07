@@ -16,6 +16,7 @@ public class LoginWhile {
             System.out.println("Digite usuario e senha");
             login = dadosTeclado.nextLine();
             senha = dadosTeclado.nextInt();
+            dadosTeclado.nextLine();
         }
         System.out.println("ACESSO CONCEDIDO");
     }
