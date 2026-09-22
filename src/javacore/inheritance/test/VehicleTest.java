@@ -5,7 +5,7 @@ package javacore.inheritance.test;
 import javacore.inheritance.domain.Car;
 import javacore.inheritance.domain.Motorhome;
 
-public class vehicleTest {
+public class VehicleTest {
     public static void main(String[] args) {
         Car car = new Car("Nissan", 250, 2);
         car.printInfo();
