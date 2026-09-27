@@ -19,7 +19,9 @@ account.accountNumber = "99999"; // try reassigning
 public class BankAccountTest {
 public static void main(String[] args) {
     BankAccount account = new BankAccount(12345);
-    account.accountNumber = 99999;
+    account.setBalance(750.00);
+    account.applyFee();
+    System.out.println(account);
 }
 
 
