@@ -3,8 +3,9 @@ package javacore.polymorphism.domain;
 public class Vip extends Tickets{
     private int drinks;
 
-    public Vip(String buyer, double basePrice) {
+    public Vip(String buyer, double basePrice, int drinks) {
         super(buyer, basePrice);
+        this.drinks = drinks;
     }
 
     @Override
