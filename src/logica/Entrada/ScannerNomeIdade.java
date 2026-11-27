@@ -1,4 +1,4 @@
-package Logica.Entrada;
+package logica.Entrada;
 
 import java.util.Scanner;
 

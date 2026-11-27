@@ -1,4 +1,4 @@
-package Logica.Arrays;
+package logica.Arrays;
 
 import java.util.Scanner;
 

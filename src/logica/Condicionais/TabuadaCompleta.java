@@ -1,4 +1,4 @@
-package Logica.Condicionais;// Programa que exibe a tabuada completa (0 a 10) usando for aninhado
+package logica.Condicionais;// Programa que exibe a tabuada completa (0 a 10) usando for aninhado
 
 public class TabuadaCompleta {
     public static void main(String[] args) {

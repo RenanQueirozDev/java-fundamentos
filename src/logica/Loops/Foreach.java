@@ -1,4 +1,4 @@
-package Logica.Loops;
+package logica.Loops;
 /*
  */
 import java.util.Scanner;

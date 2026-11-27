@@ -1,4 +1,4 @@
-package Logica.Condicionais;
+package logica.Condicionais;
 
 import java.util.Scanner;
 
